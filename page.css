@@ -1,37 +1,32 @@
 #header{
-  width: 310px;
+  width: 1250px;
   height: 50px;
   border: 1px solid rgb(8, 8, 8);
   margin: 5px;
   clear: both;
 }
-#link{
-  text-align: 100;
-  width: 100px;
-  height: 10px;
-  border: 1px solid rgb(8, 8, 8);
-  margin: 5px;
-  clear: both;
-}
-#search{
-  width: 100px;
-  height: 10px;
-  border: 1px solid rgb(8, 8, 8);
-  margin: 5px;
-  clear: both;
 
+#link{
+  text-align: left;
+  width: 150px;
+  height: 20px;
+  border: 1px solid rgb(8, 8, 8);
+  margin: 5px;
+  clear: both;
+  font-size: 10;
 }
+
 #left{
-  width: 100px;
-  height: 200px;
+  width: 400px;
+  height: 450px;
   border: 1px solid rgb(15, 15, 15);
   float: left;
   margin: 5px;
 }
 
 #right{
-  width: 200px;
-  height: 200px;
+  width: 830px;
+  height: 450px;
   border: 1px solid rgb(8, 8, 8);
   margin: 5px;
   float: left;
@@ -43,37 +38,58 @@
 #middle {
   text-align: center;
   font-size: 10;
-  width: 100px;
-  height: 80px;
+  width: 500px;
+  height: 200px;
   border: 1px solid rgb(8, 8, 8);
   margin: 5px;
   float: left;
 }
 #shopingCart{
-  width: 80px;
-  height: 190px;
+  width: 260px;
+  height: 440px;
   border: 1px solid rgb(8, 8, 8);
-  margin: 1px;
+  margin: 5px;
   float: right;
 
 }
+#cart{
+    width: 150px;
+    height: 90px;
+    border: 1px solid rgb(8, 8, 8);
+    margin: 6px;
+    float: right;
+    text-align: center;
+  font-size: 10;
+}
+
+
 
 #footer {
   text-align: center;
   font-size: 10;
-  width: 310px;
-  height: 50px;
   border: 1px solid rgb(8, 8, 8);
+  width: 1250px;
+  height: 50px;
   margin: 5px;
   clear: both;
 }
 
 #shope{
   text-align: center;
-  font-size: 6;
-  width: 80px;
-  height: 15px;
+  font-size: 10;
+  width: 200px;
+  height: 25px;
   border: 1px solid rgb(8, 8, 8);
-  margin: 5px;
+  margin: 20px;
   clear: both;
 }
+
+#input[type=text], input[type=password] {
+  width: 200px;
+  padding: 5px;
+  margin: 1px ;
+  font-size: 10;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
