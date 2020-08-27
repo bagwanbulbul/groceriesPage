@@ -1,19 +1,41 @@
+
 #header{
   width: 1250px;
   height: 50px;
   border: 1px solid rgb(8, 8, 8);
   margin: 5px;
   clear: both;
+  background-color: rgba(250, 177, 118, 0.849);
+}
+#bar{
+  width: 1250px;
+  height: 50px;
+  border: 1px solid rgb(8, 8, 8);
+  margin: 1px;
+  clear: both;
+  background-color: rgba(250, 177, 118, 0.849);
+
+}
+#menuButton{
+  width: 650px;
+  height: 42px;
+  border: 1px solid rgb(8, 8, 8);
+  margin: 1px;
+  clear: both;
+  background-color: hsla(120,100%,75%,0.3);
+
 }
 
 #link{
   text-align: left;
-  width: 150px;
-  height: 20px;
+  width: 350px;
+  height: 25px;
   border: 1px solid rgb(8, 8, 8);
   margin: 5px;
   clear: both;
   font-size: 10;
+  background-color: rgba(255, 255, 255, 0.993);
+
 }
 
 #left{
@@ -22,6 +44,8 @@
   border: 1px solid rgb(15, 15, 15);
   float: left;
   margin: 5px;
+  background-color: rgba(250, 177, 118, 0.849);
+
 }
 
 #right{
@@ -31,18 +55,22 @@
   margin: 5px;
   float: left;
   text-align: center;
-  font-size: 10;
+  font-size: 15;
+  background-color: rgba(250, 177, 118, 0.849);
+
 
 }
 
 #middle {
   text-align: center;
-  font-size: 10;
+  font-size: 25;
   width: 500px;
   height: 200px;
   border: 1px solid rgb(8, 8, 8);
   margin: 5px;
   float: left;
+  background-color: rgba(255, 255, 255, 0.993);
+
 }
 #shopingCart{
   width: 260px;
@@ -50,6 +78,8 @@
   border: 1px solid rgb(8, 8, 8);
   margin: 5px;
   float: right;
+  background-color: hsla(120,100%,75%,0.3);
+
 
 }
 #cart{
@@ -59,29 +89,35 @@
     margin: 6px;
     float: right;
     text-align: center;
-  font-size: 10;
+    font-size: 15;
+    background-color: rgba(255, 255, 255, 0.993);
+
 }
 
 
 
 #footer {
   text-align: center;
-  font-size: 10;
+  font-size: 13;
   border: 1px solid rgb(8, 8, 8);
   width: 1250px;
   height: 50px;
   margin: 5px;
   clear: both;
+  background-color: rgba(250, 177, 118, 0.849);
+
 }
 
 #shope{
   text-align: center;
-  font-size: 10;
-  width: 200px;
+  font-size: 12;
+  width: 350px;
   height: 25px;
   border: 1px solid rgb(8, 8, 8);
   margin: 20px;
   clear: both;
+  background-color: rgba(255, 255, 255, 0.993);
+
 }
 
 #input[type=text], input[type=password] {
@@ -93,3 +129,35 @@
   box-sizing: border-box;
 }
 
+#topnav {
+  overflow: hidden;
+  background-color: rgba(250, 177, 118, 0.849);
+}
+
+#topnav a {
+  float: left;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: rgba(250, 177, 118, 0.849);
+
+}
+
+#topnav a:hover {
+  background-color: rgba(250, 177, 118, 0.849);
+  color: rgb(247, 165, 165);
+}
+
+#topnav a.active {
+  background-color: rgba(250, 177, 118, 0.849);
+
+  color: white;
+}
+
+#topnav-right {
+  float: right;
+  background-color: rgba(250, 177, 118, 0.849);
+
+}
